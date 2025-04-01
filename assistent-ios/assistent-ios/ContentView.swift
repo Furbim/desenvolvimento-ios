@@ -33,7 +33,9 @@ struct ContentView: View {
             
             VStack{
                 TextField("Digite seu nome:", text: $usuario)
-                    .border(.gray)
+                    .padding(15)
+                    .background(.gray)
+                    .cornerRadius(/*@START_MENU_TOKEN@*/15.0/*@END_MENU_TOKEN@*/)
                     
                     
                 
