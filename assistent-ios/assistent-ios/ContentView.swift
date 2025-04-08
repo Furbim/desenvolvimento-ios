@@ -1,16 +1,11 @@
-//
-//  ContentView.swift
-//  assistent-ios
-//
-//  Created by COTEMIG on 01/04/25.
-//
-
 import SwiftUI
 
 struct ContentView: View {
-    @State private var contador = 0.0
+    @State private var inicial = ""
+    @State private var contador = 0
+    
     var body: some View {
-        VStack{
+        VStack {
             HStack {
                 Image(systemName: "triangle")
                     .imageScale(.large)
@@ -24,16 +19,24 @@ struct ContentView: View {
                 Image(systemName: "line.3.horizontal")
                     .imageScale(.large)
                     .foregroundColor(.accentColor)
-                
-            }.padding(.top, 30)
+            }
+            .padding(.top, 30)
             .padding(.horizontal, 25)
-            
             
             Spacer()
             
-            VStack{
-                Text("Contador: \(String(format: "%.3f", contador))")
-                HStack{
+            VStack {
+                TextField(
+                    "Digite um número:",
+                    text: $inicial
+                )
+                .keyboardType(.decimalPad)
+                .background(.gray)
+                .padding(10)
+                
+                Text("Contador: \(String(contador))")
+                
+                HStack {
                     Button(action: somar) {
                         Text("Somar")
                     }
@@ -45,35 +48,33 @@ struct ContentView: View {
                     Button(action: subtrair) {
                         Text("Subtrair")
                     }
-                    
                     .padding(10)
                     .background(.blue)
                     .foregroundColor(.white)
                     .cornerRadius(10)
                 }
-                
-            }.padding(.horizontal,30)
-                
+            }
+            .padding(.horizontal, 30)
             
             Spacer()
-            
-        }.ignoresSafeArea()
-        
-        
+        }
+        .ignoresSafeArea()
     }
     
-    private func somar(){
-        contador += 0.1
-
+    private func somar() {
+        if let valor = Int(inicial), contador == 0 {
+            contador = valor
+        }
+        contador += 1
     }
 
-    private func subtrair(){
-        contador -= 0.1
+    private func subtrair() {
+        if let valor = Int(inicial), contador == 0 {
+            contador = valor
+        }
+        contador -= 1
     }
-
 }
-
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
