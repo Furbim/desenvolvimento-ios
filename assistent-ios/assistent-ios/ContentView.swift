@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var usuario = ""
+    @State private var contador = 0.0
     var body: some View {
         VStack{
             HStack {
@@ -32,12 +32,25 @@ struct ContentView: View {
             Spacer()
             
             VStack{
-                TextField("Digite seu nome:", text: $usuario)
-                    .padding(15)
-                    .background(.gray)
-                    .cornerRadius(/*@START_MENU_TOKEN@*/15.0/*@END_MENU_TOKEN@*/)
+                Text("Contador: \(String(format: "%.3f", contador))")
+                HStack{
+                    Button(action: somar) {
+                        Text("Somar")
+                    }
+                    .padding(10)
+                    .background(.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
                     
+                    Button(action: subtrair) {
+                        Text("Subtrair")
+                    }
                     
+                    .padding(10)
+                    .background(.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+                }
                 
             }.padding(.horizontal,30)
                 
@@ -48,7 +61,18 @@ struct ContentView: View {
         
         
     }
+    
+    private func somar(){
+        contador += 0.1
+
+    }
+
+    private func subtrair(){
+        contador -= 0.1
+    }
+
 }
+
 
 
 struct ContentView_Previews: PreviewProvider {
