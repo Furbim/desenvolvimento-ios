@@ -30,13 +30,7 @@ struct ContentView: View {
             
             Spacer()
             
-            if isLoggedIn {
 
-                Text("Bem-vindo, \(usuario)!")
-                    .font(.title)
-                    .padding()
-                
-            } else {
 
                 VStack {
                     HStack {
@@ -101,7 +95,7 @@ struct ContentView: View {
                     }
                 }
                 .padding(.horizontal, 30)
-            }
+            
             
             Spacer()
         }
