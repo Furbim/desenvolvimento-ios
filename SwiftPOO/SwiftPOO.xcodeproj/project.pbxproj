@@ -13,6 +13,11 @@
 		DC7C5E742DD38331006B3D47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7C5E722DD38331006B3D47 /* Main.storyboard */; };
 		DC7C5E762DD3833B006B3D47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7C5E752DD3833B006B3D47 /* Assets.xcassets */; };
 		DC7C5E792DD3833B006B3D47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7C5E772DD3833B006B3D47 /* LaunchScreen.storyboard */; };
+		DCF281A62DE5FD22008E72C8 /* cachorro.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DCF281A42DE5FD22008E72C8 /* cachorro.jpeg */; };
+		DCF281A72DE5FD22008E72C8 /* gato.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DCF281A52DE5FD22008E72C8 /* gato.jpeg */; };
+		DCF281A92DE6003D008E72C8 /* Cachorro.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF281A82DE6003D008E72C8 /* Cachorro.swift */; };
+		DCF281AB2DE60060008E72C8 /* Gato.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF281AA2DE60060008E72C8 /* Gato.swift */; };
+		DCF281AD2DE6007B008E72C8 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF281AC2DE6007B008E72C8 /* Animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		DC7C5E752DD3833B006B3D47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC7C5E782DD3833B006B3D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC7C5E7A2DD3833B006B3D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCF281A42DE5FD22008E72C8 /* cachorro.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cachorro.jpeg; sourceTree = "<group>"; };
+		DCF281A52DE5FD22008E72C8 /* gato.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gato.jpeg; sourceTree = "<group>"; };
+		DCF281A82DE6003D008E72C8 /* Cachorro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cachorro.swift; sourceTree = "<group>"; };
+		DCF281AA2DE60060008E72C8 /* Gato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gato.swift; sourceTree = "<group>"; };
+		DCF281AC2DE6007B008E72C8 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +69,15 @@
 				DC7C5E6C2DD38331006B3D47 /* AppDelegate.swift */,
 				DC7C5E6E2DD38331006B3D47 /* SceneDelegate.swift */,
 				DC7C5E702DD38331006B3D47 /* ViewController.swift */,
+				DCF281AA2DE60060008E72C8 /* Gato.swift */,
+				DCF281AC2DE6007B008E72C8 /* Animal.swift */,
 				DC7C5E722DD38331006B3D47 /* Main.storyboard */,
 				DC7C5E752DD3833B006B3D47 /* Assets.xcassets */,
+				DCF281A82DE6003D008E72C8 /* Cachorro.swift */,
 				DC7C5E772DD3833B006B3D47 /* LaunchScreen.storyboard */,
 				DC7C5E7A2DD3833B006B3D47 /* Info.plist */,
+				DCF281A42DE5FD22008E72C8 /* cachorro.jpeg */,
+				DCF281A52DE5FD22008E72C8 /* gato.jpeg */,
 			);
 			path = SwiftPOO;
 			sourceTree = "<group>";
@@ -127,6 +142,8 @@
 			files = (
 				DC7C5E792DD3833B006B3D47 /* LaunchScreen.storyboard in Resources */,
 				DC7C5E762DD3833B006B3D47 /* Assets.xcassets in Resources */,
+				DCF281A72DE5FD22008E72C8 /* gato.jpeg in Resources */,
+				DCF281A62DE5FD22008E72C8 /* cachorro.jpeg in Resources */,
 				DC7C5E742DD38331006B3D47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC7C5E712DD38331006B3D47 /* ViewController.swift in Sources */,
+				DCF281AB2DE60060008E72C8 /* Gato.swift in Sources */,
 				DC7C5E6D2DD38331006B3D47 /* AppDelegate.swift in Sources */,
+				DCF281A92DE6003D008E72C8 /* Cachorro.swift in Sources */,
 				DC7C5E6F2DD38331006B3D47 /* SceneDelegate.swift in Sources */,
+				DCF281AD2DE6007B008E72C8 /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "80F66745-9342-4165-BE08-6EE25EBC512B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB62C472-5784-49A0-BF63-D1A8DADCBAEF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftPOO/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "AB62C472-5784-49A0-BF63-D1A8DADCBAEF - 10ed246513c620e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftPOO.ViewController.txt_nome.getter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "SwiftPOO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cotemig/desenvolvimento-ios/SwiftPOO/SwiftPOO/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "AB62C472-5784-49A0-BF63-D1A8DADCBAEF - c083558b0c203ce5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftPOO.ViewController.txt_nome.setter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "SwiftPOO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cotemig/desenvolvimento-ios/SwiftPOO/SwiftPOO/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "AB62C472-5784-49A0-BF63-D1A8DADCBAEF - 4c743aa03c455f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftPOO.ViewController.txt_nome.modify : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "SwiftPOO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cotemig/desenvolvimento-ios/SwiftPOO/SwiftPOO/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "AB62C472-5784-49A0-BF63-D1A8DADCBAEF - e275583661e67cc4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftPOO.ViewController.txt_nome.modify : Swift.Optional&lt;__C.UITextField&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SwiftPOO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cotemig/desenvolvimento-ios/SwiftPOO/SwiftPOO/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "AB62C472-5784-49A0-BF63-D1A8DADCBAEF - 3ae65976f212eeea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftPOO.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SwiftPOO.ViewController"
+                  moduleName = "SwiftPOO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cotemig/desenvolvimento-ios/SwiftPOO/SwiftPOO/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "263">
+               </Location>
+               <Location
+                  uuid = "AB62C472-5784-49A0-BF63-D1A8DADCBAEF - a00f41d86f03d590"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftPOO.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SwiftPOO.ViewController&gt;"
+                  moduleName = "SwiftPOO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cotemig/desenvolvimento-ios/SwiftPOO/SwiftPOO/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "220">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
